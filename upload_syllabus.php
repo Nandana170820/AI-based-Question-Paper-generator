@@ -1,7 +1,7 @@
 <?php
 include 'connection.php'; 
 
-$api_key = 'AIzaSyAGTkF8vWxZlb8d7wK4ZvDS-tDy75oQBdk'; 
+$api_key = 'API KEY'; 
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['syllabus']) && $_FILES['syllabus']['error'] == 0) {
     $difficulty = $_POST['difficulty']; 
